@@ -5,7 +5,7 @@ import {produtoService} from "./produto.service";
 
 import {Connection} from "mongoose";
 import {produtoSchema} from "../schema/produto.schema";
-import {DatabaseModule} from "../database.module";
+import {DatabaseModule} from "../../database.module";
 
 
 export const produtoProviders = [
