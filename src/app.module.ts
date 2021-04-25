@@ -5,8 +5,15 @@ import { ClienteModule } from './Backend/cliente/cliente.module';
 import { FuncionarioModule } from './Backend/funcionario/funcionario.module';
 import { ProdutoModule } from './Backend/produto/produto.module';
 
+//import {HttpClienteModule} from '@angular/common/http'
+
 @Module({
-  imports: [FuncionarioModule, ProdutoModule, ClienteModule],
+  imports: [
+    //HttpClienteModule,
+    FuncionarioModule,
+    ProdutoModule,
+    ClienteModule
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
