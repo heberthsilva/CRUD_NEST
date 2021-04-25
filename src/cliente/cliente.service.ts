@@ -21,7 +21,7 @@ export class ClienteService {
   }
 
   async findOne(id: string) {
-    return await this.cliModel.findOne({ s_id: id }).exec();
+    return await this.cliModel.findOne({ _id: id }).exec();
   }
   
 

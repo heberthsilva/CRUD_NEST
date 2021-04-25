@@ -21,7 +21,7 @@ export class FuncionarioService {
   }
 
   async findOne(id: string) {
-    return await this.funcModel.findOne({ s_id: id }).exec();
+    return await this.funcModel.findOne({ _id: id }).exec();
   }
   
 
