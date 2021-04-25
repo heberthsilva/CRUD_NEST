@@ -2,8 +2,8 @@ import { Module } from '@nestjs/common';
 import { FuncionarioService } from './funcionario.service';
 import { FuncionarioController } from './funcionario.controller';
 import { Connection } from 'mongoose';
-import {DatabaseModule} from "../database.module";
-import {Funcschema} from "../schema/funcionario.schema";
+import {DatabaseModule} from "../../database.module";
+import {Funcschema} from "../../Backend/schema/funcionario.schema";
 
 
 /* @Module({

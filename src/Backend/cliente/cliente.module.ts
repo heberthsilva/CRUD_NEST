@@ -2,8 +2,8 @@ import { Module } from '@nestjs/common';
 import { ClienteService } from './cliente.service';
 import { ClienteController } from './cliente.controller';
 import { Connection } from 'mongoose';
-import {DatabaseModule} from "../database.module";
-import {Clischema} from "../schema/cliente.schema";
+import {DatabaseModule} from "../../database.module";
+import {Clischema} from "../../Backend/schema/cliente.schema";
 
 
 /* @Module({
