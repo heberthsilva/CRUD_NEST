@@ -1,3 +1,4 @@
+import { VendaModule } from './Backend/vendas/venda.module';
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
@@ -12,7 +13,8 @@ import { ProdutoModule } from './Backend/produto/produto.module';
     //HttpClienteModule,
     FuncionarioModule,
     ProdutoModule,
-    ClienteModule
+    ClienteModule,
+    VendaModule
   ],
   controllers: [AppController],
   providers: [AppService],

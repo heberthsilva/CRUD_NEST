@@ -6,6 +6,7 @@ export const databaseProviders = [
         useFactory: (): Promise<typeof mongoose> =>
             mongoose.connect(
                 'mongodb+srv://admin:pedro@cluster0.2iava.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+                
             ),
     },
 ];
