@@ -25,4 +25,5 @@ export const produtoProviders = [
 export class ProdutoModule {
   nome: string;
   preco: number;
+  quantidade: number;
 }
