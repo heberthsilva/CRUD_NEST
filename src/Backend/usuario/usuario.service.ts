@@ -19,7 +19,9 @@ export class UsuarioService {
   async findAll(): Promise<Usuario[]> {
     return await this.usrModel.find().exec();
   }
-
+  async getByEmail(email: string) {
+    return await this.usrModel.findOne({email}).exec();
+  }
   async findOne(id: string) {
     return await this.usrModel.findOne({ _id: id }).exec();
   }

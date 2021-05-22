@@ -24,9 +24,10 @@ export const usuarioProviders = [
   imports: [DatabaseModule],
   controllers: [UsuarioController],
   providers: [UsuarioService, ...usuarioProviders],
+  exports:[UsuarioService]
 })
 export class UsuarioModule {
   nome: string;  
-  login: string;
-  senha: string;
+  email: string;
+  password: string;
 }
