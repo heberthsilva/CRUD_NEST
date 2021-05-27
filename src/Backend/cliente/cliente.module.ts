@@ -28,6 +28,6 @@ export const clienteProviders = [
 export class ClienteModule {
   nome: string;
   cpf: string;
-  dataDeNascimento: string;
+  dataNascimento: string;
   endereco: string;
 }

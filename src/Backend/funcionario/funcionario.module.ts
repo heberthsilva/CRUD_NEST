@@ -28,6 +28,6 @@ export const funcionarioProviders = [
 export class FuncionarioModule {
   nome: string;
   cpf: string;
-  dataDeNascimento: string;
+  dataNascimento: string;
   endereco: string;
 }
