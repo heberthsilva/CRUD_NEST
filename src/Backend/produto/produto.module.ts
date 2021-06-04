@@ -26,4 +26,5 @@ export class ProdutoModule {
   nome: string;
   preco: number;
   quantidade: number;
+  promocao: string;
 }

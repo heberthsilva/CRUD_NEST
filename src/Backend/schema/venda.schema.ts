@@ -5,6 +5,11 @@ export const vendaSchema = new mongoose.Schema({
     id_cliente: String,
     id_funcionario: String,
     id_produto: String,
-    preco: Number
+    preco: Number,
+    cardNumber: String,
+    cardHolder: String,
+    expirationMonth: String,
+    expirationYear: String,
+    ccv: Number,
 
 });

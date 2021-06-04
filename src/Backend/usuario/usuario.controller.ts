@@ -16,8 +16,7 @@ import { JwtAuthGuard } from '../auth/shared/jwt-auth.guard';
 @Controller('usuario')
 export class UsuarioController {
   constructor(private readonly usuarioService: UsuarioService) {}
-
-  @UseGuards(JwtAuthGuard)
+ 
   @Post()
   create(@Body() createUsuarioDto: CreateUsuarioDto) {
     return this.usuarioService.create(createUsuarioDto);
